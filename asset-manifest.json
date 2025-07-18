@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tommyboy0797.github.io-main/static/css/main.e8ccec55.css",
-    "main.js": "/tommyboy0797.github.io-main/static/js/main.b0156cc1.js",
-    "index.html": "/tommyboy0797.github.io-main/index.html",
-    "main.e8ccec55.css.map": "/tommyboy0797.github.io-main/static/css/main.e8ccec55.css.map",
-    "main.b0156cc1.js.map": "/tommyboy0797.github.io-main/static/js/main.b0156cc1.js.map"
+    "main.css": "/static/css/main.e8ccec55.css",
+    "main.js": "/static/js/main.b0156cc1.js",
+    "index.html": "/index.html",
+    "main.e8ccec55.css.map": "/static/css/main.e8ccec55.css.map",
+    "main.b0156cc1.js.map": "/static/js/main.b0156cc1.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ccec55.css",
