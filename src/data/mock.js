@@ -53,7 +53,7 @@ export const projects = [
     status: "Completed",
     year: "2024",
     image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop",
-    demoUrl: "https://tommyboy0797.github.io/FlightPlanningTool",
+    demoUrl: "https://flightplanning.airplanesimulations.com/",
     githubUrl: "https://github.com/Tommyboy0797/FlightPlanningTool",
     featured: true,
     keyFeatures: [
@@ -101,15 +101,15 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Roblox Adventure Game",
-    description: "Immersive adventure game built on Roblox platform using Lua scripting. Features custom game mechanics, multiplayer support, and in-game economy system.",
+    title: "Roblox Restauarant System",
+    description: "This system manages a dynamic restaurant environment where NPC customers spawn, queue, and place food orders for players to fulfill. Players can claim orders, collect required ingredients, prepare meals, and submit them to serve customers and earn credits.",
     technologies: ["Lua", "Roblox Studio", "Lua(u)"],
     category: "Game Development",
     status: "Live",
-    year: "2024",
+    year: "2025",
     image: "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=800&h=600&fit=crop",
-    demoUrl: "https://www.roblox.com/games/tommyboy0797-adventure",
-    githubUrl: "https://github.com/tommyboy0797/roblox-adventure-game",
+    demoUrl: "https://www.roblox.com/games/18902784723/Republic-Border-Roleplay",
+    githubUrl: "",
     featured: true
   },
   {
