@@ -58,7 +58,7 @@ export const projects = [
     featured: true,
     keyFeatures: [
       "GPS waypoints and airways management",
-      "SIDs/STARs integration", 
+      "SIDs/STARs integration",
       "Custom threat rings with SAM profiles",
       "Range rings and nearby waypoints",
       "User authentication with JWT tokens",
@@ -88,20 +88,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution built with React and Python backend. Features include user authentication, payment processing, and inventory management.",
-    technologies: ["React", "Python", "PostgreSQL", "Stripe API"],
-    category: "Web Development",
-    status: "Completed",
-    year: "2024",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-    demoUrl: "https://demo.tommyboy0797.dev/ecommerce",
-    githubUrl: "https://github.com/tommyboy0797/ecommerce-platform",
-    featured: true
-  },
-  {
-    id: 3,
-    title: "Roblox Restauarant System",
+    title: "Roblox Restaurant System",
     description: "This system manages a dynamic restaurant environment where NPC customers spawn, queue, and place food orders for players to fulfill. Players can claim orders, collect required ingredients, prepare meals, and submit them to serve customers and earn credits.",
     technologies: ["Lua", "Roblox Studio", "Lua(u)"],
     category: "Game Development",
@@ -113,42 +100,29 @@ export const projects = [
     featured: true
   },
   {
-    id: 4,
-    title: "Real-Time Chat Application",
-    description: "Modern chat application with real-time messaging, file sharing, and group chat functionality. Built with TypeScript and WebSocket technology.",
-    technologies: ["TypeScript", "React", "Node.js", "WebSocket"],
-    category: "Web Development",
+    id: 3,
+    title: "Uniden UBC125XLT Scanner Programmer",
+    description: "Python script to program the Uniden UBC125XLT radio scanner via serial COM port. Automates frequency uploads from CSV files to the scanner, improving efficiency for radio enthusiasts.",
+    technologies: ["Python", "PySerial", "CSV"],
+    category: "Utility / Hardware Tool",
     status: "Completed",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=800&h=600&fit=crop",
-    demoUrl: "https://chat.tommyboy0797.dev",
-    githubUrl: "https://github.com/tommyboy0797/realtime-chat",
+    image: "https://images.unsplash.com/photo-1518773553398-650c184e3d1f?w=800&h=600&fit=crop",
+    demoUrl: null,
+    githubUrl: "https://github.com/Tommyboy0797/uniden-ubc125xlt-programmer",
     featured: false
   },
   {
-    id: 5,
-    title: "C++ Game Engine",
-    description: "Custom 2D game engine built from scratch in C++. Includes rendering system, physics engine, and audio management for indie game development.",
-    technologies: ["C++", "OpenGL", "SDL2"],
+    id: 4,
+    title: "C++ 2D Game Engine",
+    description: "A lightweight custom 2D game engine created in C++ featuring OpenGL rendering, physics simulation, and audio playback, designed for indie game development and educational purposes.",
+    technologies: ["C++", "OpenGL", "SDL2", "CMake"],
     category: "Game Development",
     status: "In Progress",
     year: "2024",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop",
     demoUrl: null,
-    githubUrl: "https://github.com/tommyboy0797/cpp-game-engine",
-    featured: false
-  },
-  {
-    id: 6,
-    title: "Java Enterprise Application",
-    description: "Enterprise-grade business application with microservices architecture. Includes user management, reporting, and integration with third-party APIs.",
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
-    category: "Enterprise",
-    status: "Completed",
-    year: "2023",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-    demoUrl: "https://enterprise.tommyboy0797.dev",
-    githubUrl: "https://github.com/tommyboy0797/java-enterprise-app",
+    githubUrl: "https://github.com/Tommyboy0797/cpp-game-engine",
     featured: false
   }
 ];
@@ -218,7 +192,7 @@ export const socialLinks = [
   },
   {
     name: "Email",
-    url: "mailto:contact@tommyboy0797.dev",
+    url: "mailto:thomas@airplanesimulations.com",
     icon: "mail"
   },
   {

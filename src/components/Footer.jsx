@@ -109,7 +109,7 @@ const Footer = () => {
               <p className="flex items-center gap-1">
                 © {new Date().getFullYear()} {developerInfo.name}. Made with 
                 <Heart size={16} className="text-red-500" fill="currentColor" /> 
-                and lots of coffee.
+                and lots of suffering.
               </p>
             </div>
 
@@ -135,10 +135,10 @@ const Footer = () => {
           <div className="text-center text-gray-400 text-sm">
             <p>
               This portfolio showcases my journey as a developer. Each project represents 
-              hours of passion, learning, and dedication to creating meaningful solutions.
+              hours of passion, learning, and dedication to creating solutions to problems.
             </p>
             <p className="mt-2">
-              Built with React, hosted on GitHub Pages, and powered by creativity.
+              Built with React, hosted on GitHub Pages, and powered by pain and suffering.
             </p>
           </div>
         </div>
