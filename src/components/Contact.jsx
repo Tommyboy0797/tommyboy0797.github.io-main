@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle, Github, Linkedin, ExternalLink } from 'lucide-react';
+import { Mail, MapPin, Send, CheckCircle, Github, Linkedin, ExternalLink } from 'lucide-react';
 import { developerInfo, socialLinks } from '../data/mock';
 
 const Contact = () => {
@@ -22,13 +22,13 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
-      
+
       // Reset success message after 3 seconds
       setTimeout(() => {
         setIsSubmitted(false);
@@ -61,28 +61,21 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Contact</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                I'm always interested in new opportunities, whether it's a challenging project, 
-                a collaboration, or just a chat about technology. Feel free to reach out through 
-                any of the channels below.
+                Feel free to reach out to discuss any ideas you may have!
               </p>
             </div>
 
             {/* Contact Details */}
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <Mail className="text-blue-600" size={20} />
+                <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center">
+                  <ExternalLink className="text-indigo-600" size={20} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Email</h4>
-                  <a 
-                    href={`mailto:${developerInfo.email}`}
-                    className="text-gray-600 hover:text-blue-600 transition-colors"
-                  >
-                    {developerInfo.email}
-                  </a>
+                  <h4 className="font-semibold text-gray-900">Discord</h4>
+                  <p className="text-gray-600">{developerInfo.discordName}</p>
                 </div>
               </div>
 
@@ -144,7 +137,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-white rounded-lg shadow-sm p-8">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Send a Message</h3>
-            
+
             {isSubmitted && (
               <div className="mb-6 p-4 bg-green-100 border border-green-200 rounded-lg flex items-center gap-3">
                 <CheckCircle className="text-green-600" size={20} />
@@ -169,7 +162,7 @@ const Contact = () => {
                     placeholder="Your Name"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                     Email *
