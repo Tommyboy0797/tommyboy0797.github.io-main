@@ -32,7 +32,7 @@ const Footer = () => {
               {developerInfo.tagline}
             </p>
             <p className="text-gray-400 text-sm">
-              Building innovative solutions with passion and precision.
+              Building bold solutions with passion and precision.
             </p>
           </div>
 
